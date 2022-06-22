@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Superhero Cicerone</string>
+    <string name="alert_dialog_yes">Да</string>
+    <string name="superheroes_list_title">Супергерои</string>
+    <string name="superhero_info_title">Характеристики</string>
+    <string name="about_title">О приложении</string>
+    <string name="github_link"><a href="https://github.com/z1r3ael">github.com/z1r3ael</a></string>
+</resources>

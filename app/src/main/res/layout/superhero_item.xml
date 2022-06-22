@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="3dp"
+    app:cardCornerRadius="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_color_orange"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/superheroIconImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                tools:srcCompat="@drawable/test_icon" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/superheroNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="TextView"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/app_color_red"
+                android:textSize="14sp" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
