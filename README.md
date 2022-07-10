@@ -9,5 +9,5 @@
   - Picasso
   - SharedPreferences
   - Cicerone
-
+ 
 Дополнительно добавил APK файл.
